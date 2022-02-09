@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<!-- saved from url=(0056)file:///C:/Users/thoma/Desktop/website-dorset/index.html -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Web Page Title</title>
+    <title>Portfolio Thomas's page</title>
     <meta name="description" content="Sample web page description goes here.">
 
 	<!-- Preload hero image -->
+    
 
 
 	<!-- Stylesheets -->
-    <link rel="stylesheet" href="./index_files/lunadoge.css">
-    <link rel="stylesheet" href="./index_files/custom.css">
+    <link rel="stylesheet" href="../assets/css/lunadoge.css">
+    <link rel="stylesheet" href="../assets/css/custom.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
 
 	<!-- Google Fonts -->
 
     
 	<!-- Font Awesome 5 icons -->
-	<link href="./index_files/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
 
     <!-- Light Awesome icons -->
     <link rel="stylesheet" href="./index_files/line-awesome.min.css">
@@ -31,14 +32,64 @@
 
 <body>
 
+
     <!-- navigation menu -->
     <nav></nav>
 
-    <!-- header hero block -->
-    <header>
+    <header class="hero-block text-center-desktop text-center-mobile">
 
+        <div class="hero-text-container">
+            <h1 class="text-shadow">Portfolio</h1>
+        </div>
+    
+    
+            <div class="container-btn">
+                <a href="../index.html" class="btn btn-secondary"><i class="fas fa-arrow-right"></i> Home page</a>
+                <a href="../contact/index.html" class="btn btn-secondary"><i class="fas fa-arrow-right"></i> Contact</a>
+            </div>
+        
+        <div class="hero-bg-media">
+            <video loop="" playsinline="" muted="" autoplay="" poster="./assets/img/Space.mp4" class="background-video" disablepictureinpicture="" preload="auto">
+                <source src="../assets/img/Space.mp4"  type="video/mp4">
+            </video>
+        </div>
+    
+        <div class="bg-overlay"></div>
+    
     </header>
+    
+	<section class="container-flex theme-one">
+		<div class="col-1 text-center">
+			<h2>Projects</h2>
+			<h3>Website project examples </h3>
+		</div>
 
+		<div class="col-3">
+			<figure><img src="../assets/img/project-van-gogh.png" alt="Placeholder image"></figure>
+			<h3>Vincent Van Gogh</h3>
+			<p>A presentation of Vincent van Gogh with an integrated explanatory video.</p>
+            <a href="../exercises/page-5.html" class="button button-solid">View Projet &nbsp;<i class="fas fa-arrow-right"></i></a>
+		</div>
+
+        <div class="col-3">
+			<figure><img src="../portfolio/crypto-wallet/assets/img/project-crypto-wallet.jpg" alt="Placeholder image"></figure>
+            <h3>Crypto Wallet</h3>
+            <p>A responsive, multi-colymn single-page website for a fictious crypto wallet.</p>
+			<a href="../portfolio/crypto-wallet/index.html" class="button button-solid">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>   
+		</div>
+
+		<div class="col-3">
+			<figure><img src="../assets/img/project-smoothie.jpg" alt="Placeholder image"></figure>
+			<h3>Smooth Smoothies</h3>
+			<p>Presentation of different illustrated smoothie recipes</p>
+            <a href="../exercises/smoothies.html" class="button button-solid">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>   
+		</div>
+
+		</div>
+	</section>
+
+    <!-- navigation menu -->
+    <nav></nav>
 
     <!-- main content with sections -->
     <main>
@@ -48,7 +99,29 @@
 
     
     <!-- footer -->
-    <footer></footer>
+	<footer>
+
+		<h2>Social media</h2>
+
+		<h3>My social media</h3>
+
+		<ul class="footer-links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="portfolio/index.html">Portfolio</a></li>
+			<li><a href="contact/index.html">Contact</a></li>
+		</ul>
+
+		<ul class="footer-icons">
+			<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+			<li><a href="https://github.com/ThomasPinglot" target="_blank"><i class="fab fa-github-square"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+		</ul>
+
+		<p class="privacy"><a href="#">Privacy &amp; Legal</a></p>
+
+    </footer>
        
     <script src="./index_files/menu.js.téléchargement"></script>
 
