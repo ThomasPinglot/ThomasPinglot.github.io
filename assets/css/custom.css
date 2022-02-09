@@ -136,7 +136,7 @@
 
 /* Global font */
 body { font-family: var(--global-font) }
-.theme-one { background-color: var(--teal-400) }
+.theme-one { background-color: var(--cyan-100) }
 .theme-one .col-1 h3 { color: var(--black-000) }
 .theme-one .col-1 h2 { color: var(--black-000) }
 

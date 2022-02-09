@@ -2224,4 +2224,28 @@ footer p.privacy a:hover, footer p.privacy a:active {
 }
 
 
+a.button:link, a.button:visited, a.button:hover, a.button:active { 
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    padding: 14px 30px;
+    display: inline-block;
+    line-height: 1;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+ 
+a.button-solid:link, .button-solid:visited {
+    background-color: #809FFF;
+    color: #fff;
+} 
+ 
+a.button-solid:hover, .button-solid:active {
+    background-color: #0c1d37;
+   color: #fff 
+}
+ 
+a.button-round { border-radius: 50px }
+a.button-soft { border-radius: 5px }
+
 
