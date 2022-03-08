@@ -2248,4 +2248,4 @@ a.button-solid:hover, .button-solid:active {
 a.button-round { border-radius: 50px }
 a.button-soft { border-radius: 5px }
 
-
+a.btn i, button i { margin-right: 12px; }
