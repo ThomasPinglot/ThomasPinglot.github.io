@@ -154,7 +154,7 @@ footer p.privacy a:visited { color: #fff; text-decoration-color: #fff }
 footer { background-color: var(--white-000) }
 footer ul.footer-icons li a:focus i, 
 footer ul.footer-icons li a:hover i, 
-footer ul.footer-icons li a:active i { color:#fff)}
+footer ul.footer-icons li a:active i { color:#fff}
 
 footer ul.footer-links li a:focus, 
 footer ul.footer-links li a:hover, 
