@@ -197,6 +197,7 @@ header.hero-block { background-color: var(--blue-600) }
     .hero-block .container-btn { margin-top: 64px }
     .hero-block h1 + .container-btn { margin-top: 120px }
     .hero-block .container-btn a:nth-child(2) { margin-left: 60px }
+    .hero-block .container-btn a:nth-child(3) { margin-left: 60px }
 }
 
 /* Desktops: button(s) centre-aligned */
@@ -207,6 +208,7 @@ header.hero-block { background-color: var(--blue-600) }
 /* Mobiles */
 @media (max-width: 767px) {
     .hero-block .container-btn { 
+        margin-left: 30px;
         margin-top: 42px; 
         display: flex; 
         flex-direction: column;
@@ -1151,6 +1153,7 @@ On large screens (and sometimes small screens too), the div child elements are t
 @media (min-width: 768px) {
     .cols-2-split.split-image-right .col-2:nth-child(1) { order: 1; }
     .cols-2-split.split-image-right .col-2:nth-child(2) { order: 2; }
+    .cols-2-split.split-image-right .col-2:nth-child(3) { order: 2; }
     .cols-2-split.split-image-left  .col-2:nth-child(1) { order: 2; }
     .cols-2-split.split-image-left  .col-2:nth-child(2) { order: 1; }
 }
@@ -1203,6 +1206,7 @@ On large screens (and sometimes small screens too), the div child elements are t
     .cols-2-split .container-btn { margin-top: 12px; padding-left: 0; width: 100% }
     .cols-2-split .container-btn a.btn { display: inline-block }
     .cols-2-split .container-btn a:nth-child(2) { margin-left: 32px }
+    .cols-2-split .container-btn a:nth-child(3) { margin-left: 32px }
     .cols-2-split .container-btn a.btn { 
         font-size: calc(16px + (18 - 16) * ((100vw - 320px)/(1920 - 320)));
         padding: 14px 14px 17px 14px
